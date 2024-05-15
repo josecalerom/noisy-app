@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Noisy app by Igrowker
 
-## Getting Started
+![image](https://github.com/josecalerom/noisy-app/assets/107557905/ea0c11f3-6792-4bc6-b519-ff05b169252d)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descripción
+Noisy app es un proyecto de desarrollo web (mobile first) que pretende cubrir las necesidades relativas a la búsqueda de eventos musicales, así como posibles compañeros de viaje y alojamiento a los eventos. Mi rol en el proyecto fue el de Full Stack y el desarrollo del mismo empleó tecnologías actuales como son Next.js y Chakra UI. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
+- React
+- Next.js
+- Chakra UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-proyecto.git`
+2. Navega al directorio del proyecto: `cd tu-proyecto`
+3. Instala las dependencias: `npm install`
+4. Inicia la aplicación: `npm start`
+5. Comienza a interactuar con los diferentes componentes
 
-## Learn More
+## Contribución en el proyecto
+Dentro de las responsabilidades que me fueron asignadas durante la realización del proyecto estuvieron:
+- Landing page: configuración de una API con los datos en formato JSON para cada festival, de modo que se puedan mapear los datos para el renderizado de las tarjetas de los eventos
+- Componente "ver datos" (junto con Fernando Fantini): crear componente "VerDatos" junto con una API con datos en formato JSON para que sirvan de base de prueba, el cual renderiza un "pie chart" que contiene los datos de las edades de los asistentes al evento, usando la librería ChartJS
+- Gráfico adicional de barras: integración de un gráfico adicional con datos relativos al género y país de los asistentes
+- Subomponente "entradas vendidas": crear el subcomponente "entradas vendidas" dentro de "verDatos", el cual renderiza la cantidad de entradas vendida en el evento creado por el usuario, así como la cantidad de likes asociados
 
-To learn more about Next.js, take a look at the following resources:
+## Créditos
+Agradezco y aprecio el esfuerzo de mis compañeros en el equipo:
+- [Gastón Valentini](https://github.com/Gaston-Valentini)
+- [Gustavo Villegas](https://github.com/opel777)
+- [Delfi Duar](https://github.com/delfiduar)
+- [JormanMR](https://github.com/JormanMR)
+- [Fernando José Fantini](https://github.com/Fer2313)
+- [Kevin Vigil](https://github.com/kevinvigil)
+- [Neil Valente](https://github.com/Neil-Valente)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Y también a nuestros tutores por su esfuerzo y tiempo:
+- [Patricio Iván García Zitarosa](https://github.com/pgzit)
+- [Damián Fanaro](https://github.com/damianfanaro)
+- [Patrizia Gonzalez Garcia](https://github.com/patrigarcia)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Licencia
+Este proyecto está protegido bajo nuestra propiedad intelectual. Todos los derechos reservados.
